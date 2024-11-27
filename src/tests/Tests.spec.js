@@ -19,7 +19,7 @@ export const options = {
     http_req_failed: ['rate<0.12'],  
     get_contacts: ['p(95)<5700'],  
     content_OK: ['rate>0.95']  
-  },
+  }, 
   stages: [
     { duration: '30s', target: 5 },   
     { duration: '30s', target: 5 },  
